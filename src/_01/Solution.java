@@ -1,8 +1,7 @@
-package _01_Greedy;
+package _01;
 
 public class Solution {
-
     public static void main(String[] args) {
-
+        System.out.println("COTE");
     }
 }
