@@ -10,7 +10,17 @@ import java.util.Scanner;
 public class _08 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String input = "found7, time: study; Yduts; emit, 7Dnuof";
-        System.out.println(input);
+        String input = scan.nextLine();
+        System.out.println(solution(input));
+    }
+
+    private static String solution(String input) {
+        //replace에는 정규식 사용을 못 한다 -> replaceAll 정규식 사용
+        input = input.toUpperCase().replaceAll("[^A-Z]", "");
+        String tmp = new StringBuilder(input).reverse().toString();
+        System.out.println(tmp);
+        if (input.equals(tmp)) {
+            return "YES";
+        } else return "NO";
     }
 }
