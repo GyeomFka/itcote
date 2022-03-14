@@ -4,13 +4,13 @@
 3. 문장 속 단어(indexOf(), substring()) [V]
 4. 단어 뒤집기(StringBuilder이용법 또는 직접뒤집기) [V]
 5. 특정 문자 뒤집기(toCharArray()) [V]
-6. 중복문자제거
-7. 회문문자열
-8. 팰린드롬(replaceAll 정규식이용)
-9. 숫자만 추출
-10. 문자거리
-11. 문자열 압축
-12. 암호(replace(), parseInt(string, 2))
+6. 중복문자제거 [V]
+7. 회문문자열 [V]
+8. 팰린드롬(replaceAll 정규식이용) [V]
+9. 숫자만 추출 [V]
+10. 문자거리 [V]
+11. 문자열 압축 [V]
+12. 암호(replace(), parseInt(string, 2)) [V]
 
 ### 섹션 2. Array(1, 2차원 배열)
 1. 큰 수 출력하기
