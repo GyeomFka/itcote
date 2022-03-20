@@ -22,4 +22,10 @@ public class _04 {
 			System.out.print(x + " ");
 		}
 	}
+
+	public static void sonCoding() {
+		int a = 1, b = 1, c;
+		System.out.println(a + " " + b + " " + " ");
+
+	}
 }
