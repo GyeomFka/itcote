@@ -16,15 +16,27 @@ public class _11 {
 			{8,4,2,2,2}
 		};
 
-		int[][] dupCnt = new int[studentCnt][5];
+		int[] score = new int[studentCnt];
 
-		//input
-		for (int w = 0; w < studentCnt; w++) {
-			for (int h = 0; h < 5; h++) {
-				if (h == 0) {
-					System.out.println(tmpLeader[w][h]);
+		for (int a = 0; a < 5; a++) {
+
+			for (int w = 0; w < studentCnt; w++) {
+				for (int h = w+1; h < studentCnt; h++) {
+					if(tmpLeader[w][a] == tmpLeader[h][a]) {
+						score[w]++;
+						score[h]++;
+					}
 				}
 			}
 		}
+
+		for (int x : score) {
+			System.out.println(x);
+		}
+
+
+
+
+
 	}
 }

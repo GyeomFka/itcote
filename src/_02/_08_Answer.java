@@ -9,10 +9,18 @@ import java.util.Scanner;
  */
 public class _08_Answer {
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int[] score = new int[n];
+		for (int i = 0; i < n; i++) {
+			score[i] = scan.nextInt();
+		}
+		//System.out.println(solution(n, score));
+
+
+
 
 	}
 
-	public static void solution() {
 
-	}
 }
