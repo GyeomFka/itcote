@@ -23,8 +23,8 @@
 8. 등수구하기 [V]
 9. 격자판 최대합 [V]
 10. 봉우리 [V]
-11. 임시반장정하기
-12. 멘토링
+11. 임시반장정하기 [V] - n loop 
+12. 멘토링 [V] - n loop
  
 ### 섹션 3. Two pointers, Sliding window[효율성 : O(n^2)-->O(n)]
 1. 두 배열 합치기(two pointers algorithm)
