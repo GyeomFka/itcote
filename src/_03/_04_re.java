@@ -7,28 +7,24 @@ import java.util.Scanner;
  */
 public class _04_re {
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int n = 5;
-		int m = 4;
-		int[] arr = {1, 2, 1, 1, 2, 1};
+		int n = 8;
+		int m = 6;
+		int[] arr = {1, 2, 1, 3, 1, 1, 1, 2};
 
 		int answer = 0;
-		for (int i = 0; i < n; i++) {
-			int j = i;
-			int sum = arr[i];
 
-			if (i == n - 1) {
-				sum = arr[i];
-				break;
+		for (int i = 0; i < 8; i++) {
+			int sum = 0;
+			int di = i;
+			while (sum < m) {
+				if (di == n - 1) {
+					sum += arr[di];
+					break;
+				} else {
+					sum += arr[di++];
+				}
 			}
-
-			while (sum < m && j < n-1) {
-				sum += arr[j++];
-			}
-			if (sum == m) answer++;
-
+			if (sum==m) answer++;
 		}
-
-
 	}
 }

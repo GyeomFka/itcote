@@ -3,10 +3,10 @@ package _03;
 import java.util.Scanner;
 
 /**
- * 3. 최대 매출
- *  Time Limit Exceeded ?
+ * 4. 연속 부분수열
+ * 이거봐 맞출 수 있잖아 씨발
  */
-public class _03 {
+public class _04_re_answer {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
@@ -19,19 +19,18 @@ public class _03 {
 		}
 
 		int answer = 0;
-		int sum = 0;
-
-		for (int i = 0; i < m; i++) {
-			sum += arr[i];
-			answer = sum;
-		}
-
-		for (int i = m; i < n; i++) {
-			sum += arr[i];
-			sum -= arr[i-m];
-			if (answer < sum) {
-				answer = sum;
+		for (int i = 0; i < n; i++) {
+			int sum = 0;
+			int di = i;
+			while (sum < m) {
+				if (di == n - 1) {
+					sum += arr[di];
+					break;
+				} else {
+					sum += arr[di++];
+				}
 			}
+			if (sum==m) answer++;
 		}
 		System.out.println(answer);
 	}
