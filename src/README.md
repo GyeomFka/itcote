@@ -30,13 +30,13 @@
 1. 두 배열 합치기(two pointers algorithm) [V]
 2. 공통원소구하기(two pointers algorithm) [V]
 3. 최대 매출(Sliding window) [V]
-4. 연속부분수열(복합적 문제) [two pointers 활용하여 다시 풀어보기]
-5. 연속된 자연수의 합(two pointers)
-5. 연속된 자연수의 합(수학)
+4. 연속부분수열(복합적 문제)  [V]
+5. 연속된 자연수의 합(two pointers) [V]
+5. 연속된 자연수의 합(수학적인 접근) [V]
 6. 최대 길이 연속부분수열(복합적 문제)
 
 ### 섹션 4. HashMap, TreeSet (해쉬, 정렬지원 Set)
-1. 학급 회장(영상 후반 HashMap 추가설명)
+1. 학급 회장(영상 후반 HashMap 추가설명) [V]
 2. 아나그램(HashMap)
 3. 매출액의 종류(Hash, sliding window)
 4. 모든 아나그램 찾기(Hash, sliding window : 시간복잡도 O(n))
