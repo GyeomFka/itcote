@@ -16,7 +16,7 @@ public class _03 {
 		/*int n = 7;
 		int k = 4;
 		int[] arr = {20, 12, 20, 10, 23, 17, 10};
-*/
+		*/
 
 		ArrayList<Integer> answer = new ArrayList<>();
 		HashMap<Integer, Integer> map = new HashMap<>();

@@ -6,8 +6,8 @@ public class _02_answer {
 	public static void main(String[] args) {
 
 		//길이가 같은 두 단어
-		String a = "AbaAeCe";
-		String b = "baeeACA";
+		String a = "abc";
+		String b = "abbc";
 
 		String answer = "YES";
 
@@ -22,6 +22,11 @@ public class _02_answer {
 			map.put(x, map.get(x)-1);
 		}
 
-		System.out.println(answer);
+		for (char x : map.keySet()) {
+			System.out.print(x + " : " + map.get(x) + " ");
+			System.out.println(" ");
+		}
+
+		// System.out.println(answer);
 	}
 }
