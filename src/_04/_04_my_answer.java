@@ -3,7 +3,7 @@ package _04;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class _04_re {
+public class _04_my_answer {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String s = scan.nextLine();
