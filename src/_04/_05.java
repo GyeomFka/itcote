@@ -1,29 +1,33 @@
 package _04;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class _05 {
 	public static void main(String[] args) {
-		int n = 10;
+		int n = 11;
 		int k = 3;
-		int[] arr = {13, 15, 34, 23, 45, 65, 33, 11, 26, 42};
+		int[] arr = {13, 15, 34, 23, 45, 65, 33, 11, 26, 42, 65};
 
-		Map<Integer, Integer> map = new TreeMap<>();
+		Arrays.sort(arr);
 
-		for (int x : arr) {
-			map.put(x, map.getOrDefault(x, 0) + 1);
+		Comparator<Integer> comparator = Comparator.reverseOrder();
+		Map<Integer, Integer> map = new TreeMap<>(comparator);
+
+		for (int i = 0; i < n; i++) {
+			//10 ~ 0
+			System.out.println(i + ":" + arr[n-i-1]);
 		}
 
-		for (int x : map.keySet()) {
-			System.out.println(x + " : " + map.get(x));
-		}
+
+
+
+
 	}
-
-
 	//19년1119
-	//2333330
+	//2,333,330
 	//
+
 }
