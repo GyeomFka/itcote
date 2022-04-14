@@ -44,8 +44,6 @@ public class _04_my_answer {
 				lt++;
 			}
 		}
-
-
 		return answer;
 	}
 

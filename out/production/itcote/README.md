@@ -39,7 +39,7 @@
 1. 학급 회장(영상 후반 HashMap 추가설명) [V]
 2. 아나그램(HashMap) [V]
 3. 매출액의 종류(Hash, sliding window) [V]
-4. 모든 아나그램 찾기(Hash, sliding window : 시간복잡도 O(n))
+4. 모든 아나그램 찾기(Hash, sliding window : 시간복잡도 O(n)) [V]
 5. K번째 큰 수(영상 후반 TreeSet 추가설명)
 
 ### 섹션 5. Stack, Queue(자료구조)

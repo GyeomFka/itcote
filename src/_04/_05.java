@@ -20,11 +20,6 @@ public class _05 {
 			//10 ~ 0
 			System.out.println(i + ":" + arr[n-i-1]);
 		}
-
-
-
-
-
 	}
 	//19년1119
 	//2,333,330
